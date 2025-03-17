@@ -1,0 +1,278 @@
+2025-03-14T10:39:32.146143+0300 ERROR 404: Not Found
+Endpoint: http://127.0.0.1:8000/
+
+2025-03-14T10:39:32.227425+0300 ERROR 404: Not Found
+Endpoint: http://127.0.0.1:8000/favicon.ico
+
+2025-03-14T10:41:34.170724+0300 ERROR JSONResponse.__init__() missing 1 required positional argument: 'content'
+Endpoint: http://127.0.0.1:8000/api/v1/create_referral_code?code=dasdas
+
+2025-03-14T10:42:01.820525+0300 ERROR JSONResponse.__init__() missing 1 required positional argument: 'content'
+Endpoint: http://127.0.0.1:8000/api/v1/create_referral_code?code=dasdas
+
+2025-03-14T10:43:53.848297+0300 INFO Вошел пользователь: nik.som201@mail.ru
+
+2025-03-14T10:54:21.583537+0300 INFO Зарегистрирован пользователь: user@example.com
+
+2025-03-14T10:54:21.774198+0300 ERROR 'NoneType' object has no attribute 'code_expiration'
+Endpoint: http://127.0.0.1:8000/api/v1/register
+
+2025-03-14T10:56:36.037574+0300 INFO Зарегистрирован пользователь: user@example.com
+
+2025-03-14T10:56:36.229607+0300 ERROR 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': 'user@example.com'}
+
+Endpoint: http://127.0.0.1:8000/api/v1/register
+
+2025-03-14T10:57:02.797393+0300 INFO Зарегистрирован пользователь: user@example.com
+
+2025-03-14T10:59:34.653588+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-14T10:59:34.654617+0300 ERROR BaseModel.__init__() takes 1 positional argument but 2 were given
+Endpoint: http://127.0.0.1:8000/api/v1/login
+
+2025-03-14T10:59:55.869695+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-14T10:59:55.870694+0300 ERROR BaseModel.__init__() takes 1 positional argument but 2 were given
+Endpoint: http://127.0.0.1:8000/api/v1/login
+
+2025-03-14T11:00:44.846089+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-14T11:02:47.700298+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-14T11:02:48.906838+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-14T11:15:35.330549+0300 ERROR 1 validation error for ReferralsResponse
+  Input should be a valid dictionary or instance of ReferralsResponse [type=model_type, input_value=[<src.database.models.use... at 0x00000198E9F27B90>], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/model_type
+Endpoint: http://127.0.0.1:8000/api/v1/get_referrals/21
+
+2025-03-14T11:17:00.454674+0300 ERROR 1 validation error for ReferralsResponse
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value=[<src.database.models.use... at 0x0000010D4C3F2AB0>], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/model_attributes_type
+Endpoint: http://127.0.0.1:8000/api/v1/get_referrals/21
+
+2025-03-14T21:58:59.063255+0300 ERROR 404: Not Found
+Endpoint: http://127.0.0.1:8000/
+
+2025-03-14T21:58:59.160592+0300 ERROR 404: Not Found
+Endpoint: http://127.0.0.1:8000/favicon.ico
+
+2025-03-14T21:59:09.215208+0300 ERROR 1 validation error for ReferralsResponse
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value=[<src.database.models.use... at 0x0000015E1A557E60>], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/model_attributes_type
+Endpoint: http://127.0.0.1:8000/api/v1/get_referrals/21
+
+2025-03-14T22:00:17.715681+0300 ERROR 1 validation error for ReferralsResponse
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value=[UserResponse(id=31, emai...ail='user@example.com')], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/model_attributes_type
+Endpoint: http://127.0.0.1:8000/api/v1/get_referrals/21
+
+2025-03-14T22:00:54.424737+0300 ERROR 1 validation error for ReferralsResponse
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value=[UserResponse(id=31, emai...ail='user@example.com')], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/model_attributes_type
+Endpoint: http://127.0.0.1:8000/api/v1/get_referrals/21
+
+2025-03-14T22:04:06.745807+0300 ERROR 'User' object has no attribute 'dict'
+Endpoint: http://127.0.0.1:8000/api/v1/get_referrals/21
+
+2025-03-14T22:07:03.221944+0300 ERROR name 'ReferralsResponse' is not defined
+Endpoint: http://127.0.0.1:8000/api/v1/get_referrals/22
+
+2025-03-14T22:07:07.742537+0300 ERROR 1 validation error for UsersResponse
+referrals
+  Field required [type=missing, input_value={'users': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Endpoint: http://127.0.0.1:8000/api/v1/get_referrals/22
+
+2025-03-14T23:04:06.794339+0300 ERROR 2 validation errors for CreatedCodeResponse
+email
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x0000021950ADB7D0>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+code
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x0000021950ADB7D0>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Endpoint: http://127.0.0.1:8000/api/v1/create_code?code=dsadassss
+
+2025-03-14T23:04:41.941894+0300 ERROR 2 validation errors for CreatedCodeResponse
+email
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x0000022C66A75450>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+code
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x0000022C66A75450>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Endpoint: http://127.0.0.1:8000/api/v1/create_code?code=dsadassss
+
+2025-03-14T23:05:01.629540+0300 ERROR Multiple rows were found when one or none was required
+Endpoint: http://127.0.0.1:8000/api/v1/create_code?code=dsadassss
+
+2025-03-14T23:05:30.761812+0300 ERROR 2 validation errors for CreatedCodeResponse
+email
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x0000029CC76C5690>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+code
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x0000029CC76C5690>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Endpoint: http://127.0.0.1:8000/api/v1/create_code?code=dsadassss
+
+2025-03-14T23:06:34.952973+0300 ERROR 2 validation errors for CreatedCodeResponse
+email
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x0000014E0CBF4D90>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+code
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x0000014E0CBF4D90>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Endpoint: http://127.0.0.1:8000/api/v1/create_code?code=dsadassss
+
+2025-03-14T23:08:51.944070+0300 ERROR 2 validation errors for CreatedCodeResponse
+email
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x000001AEBF3B4490>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+code
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x000001AEBF3B4490>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Endpoint: http://127.0.0.1:8000/api/v1/create_code?code=dsadassss
+
+2025-03-14T23:09:07.487106+0300 ERROR 2 validation errors for CreatedCodeResponse
+email
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x000001E71A37FC50>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+code
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x000001E71A37FC50>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Endpoint: http://127.0.0.1:8000/api/v1/create_code?code=dsadassss
+
+2025-03-14T23:10:19.120527+0300 ERROR 2 validation errors for CreatedCodeResponse
+email
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x0000018F7BB87710>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+code
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x0000018F7BB87710>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Endpoint: http://127.0.0.1:8000/api/v1/create_code?code=dsadassss
+
+2025-03-14T23:10:58.420124+0300 ERROR 2 validation errors for CreatedCodeResponse
+email
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x0000018F7BFCC510>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+code
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x0000018F7BFCC510>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Endpoint: http://127.0.0.1:8000/api/v1/create_code?code=sisi123
+
+2025-03-14T23:11:16.867853+0300 ERROR 2 validation errors for CreatedCodeResponse
+email
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x0000020D24B66FD0>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+code
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x0000020D24B66FD0>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Endpoint: http://127.0.0.1:8000/api/v1/create_code?code=sisi123
+
+2025-03-14T23:12:19.725533+0300 ERROR 2 validation errors for CreatedCodeResponse
+email
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x000002A6F2E37490>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+code
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x000002A6F2E37490>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Endpoint: http://127.0.0.1:8000/api/v1/create_code?code=sisi123
+
+2025-03-14T23:13:23.594305+0300 ERROR 2 validation errors for CreatedCodeResponse
+email
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x00000252894B6B90>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+code
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x00000252894B6B90>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Endpoint: http://127.0.0.1:8000/api/v1/create_code?code=sisi123
+
+2025-03-14T23:13:45.126659+0300 ERROR 2 validation errors for CreatedCodeResponse
+email
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x000001FFD75C7D50>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+code
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x000001FFD75C7D50>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Endpoint: http://127.0.0.1:8000/api/v1/create_code?code=sisi123
+
+2025-03-14T23:13:50.261819+0300 ERROR 2 validation errors for CreatedCodeResponse
+email
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x000001FFD7A0C390>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+code
+  Field required [type=missing, input_value=<sqlalchemy.engine.result...t at 0x000001FFD7A0C390>, input_type=ChunkedIteratorResult]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Endpoint: http://127.0.0.1:8000/api/v1/create_code?code=sisi123
+
+2025-03-14T23:14:49.076153+0300 ERROR 1 validation error for CreatedCodeResponse
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value='user@example.com', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/model_attributes_type
+Endpoint: http://127.0.0.1:8000/api/v1/create_code?code=sisi123
+
+2025-03-14T23:35:35.324627+0300 ERROR 404: Not Found
+Endpoint: http://127.0.0.1:8000/
+
+2025-03-14T23:35:35.415945+0300 ERROR 404: Not Found
+Endpoint: http://127.0.0.1:8000/favicon.ico
+
+2025-03-14T23:36:49.502395+0300 ERROR 404: Not Found
+Endpoint: http://127.0.0.1:8000/
+
+2025-03-14T23:36:49.503399+0300 ERROR '404_response.html' not found in search path: 'static'
+Endpoint: http://127.0.0.1:8000/
+
+2025-03-14T23:36:50.351552+0300 ERROR 404: Not Found
+Endpoint: http://127.0.0.1:8000/
+
+2025-03-14T23:36:50.351552+0300 ERROR '404_response.html' not found in search path: 'static'
+Endpoint: http://127.0.0.1:8000/
+
+2025-03-14T23:37:21.563313+0300 ERROR 404: Not Found
+Endpoint: http://127.0.0.1:8000/
+
+2025-03-14T23:37:21.563313+0300 ERROR '404_response.html' not found in search path: 'static'
+Endpoint: http://127.0.0.1:8000/
+
+2025-03-14T23:38:04.311641+0300 ERROR 404: Not Found
+Endpoint: http://127.0.0.1:8000/
+
+2025-03-14T23:38:04.311641+0300 ERROR '404_response.html' not found in search path: 'C:\\Users\\someqst\\Desktop\\Dev\\myprod\\referal_system_api\\static'
+Endpoint: http://127.0.0.1:8000/
+
+2025-03-14T23:38:20.797518+0300 ERROR 404: Not Found
+Endpoint: http://127.0.0.1:8000/
+
+2025-03-14T23:39:52.629331+0300 ERROR 404: Not Found
+Endpoint: http://127.0.0.1:8000/favicon.ico
+
+2025-03-14T23:40:04.579166+0300 ERROR '200_response.html' not found in search path: 'C:\\Users\\someqst\\Desktop\\Dev\\myprod\\referal_system_api\\src\\static'
+Endpoint: http://127.0.0.1:8000/api/v1/enter/12312
+
+2025-03-14T23:40:24.229466+0300 INFO Перешел пользователь по реферальному коду 12312
+
+2025-03-14T23:41:12.130207+0300 INFO Перешел пользователь по реферальному коду 12312
+
+2025-03-14T23:41:12.566720+0300 INFO Перешел пользователь по реферальному коду 12312
+
+2025-03-14T23:41:22.416919+0300 INFO Перешел пользователь по реферальному коду 12312
+
+2025-03-14T23:41:22.750787+0300 INFO Перешел пользователь по реферальному коду 12312
+
+2025-03-14T23:41:22.930149+0300 INFO Перешел пользователь по реферальному коду 12312
+
+2025-03-14T23:44:00.572040+0300 INFO Перешел пользователь по реферальному коду 12312
+
+2025-03-14T23:44:00.636764+0300 ERROR 404: Not Found
+Endpoint: http://127.0.0.1:8000/favicon.ico
+
+2025-03-14T23:44:02.654989+0300 INFO Перешел пользователь по реферальному коду 12312
+
+2025-03-14T23:44:49.926790+0300 INFO Перешел пользователь по реферальному коду 12312
+
+2025-03-14T23:45:08.527905+0300 INFO Перешел пользователь по реферальному коду 12312
+
+2025-03-14T23:45:26.734749+0300 INFO Перешел пользователь по реферальному коду 12312
+
+2025-03-14T23:45:28.531394+0300 INFO Перешел пользователь по реферальному коду 12312
+

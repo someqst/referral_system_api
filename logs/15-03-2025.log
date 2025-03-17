@@ -1,0 +1,125 @@
+2025-03-15T00:29:40.457146+0300 INFO Зарегистрирован пользователь: some@mail.ru
+
+2025-03-15T00:29:40.662236+0300 ERROR 'NoneType' object has no attribute 'send'
+Endpoint: http://testserver/api/v1/login
+
+2025-03-15T00:31:23.907216+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T00:33:20.508541+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T00:34:46.943702+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T00:35:02.442483+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T00:38:50.137154+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T00:39:59.973037+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T00:40:56.171864+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T00:41:56.116671+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T00:45:11.479373+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T00:46:25.282979+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T00:47:48.747022+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T00:51:11.957759+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-15T00:51:15.673232+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-15T00:52:17.874926+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-15T00:52:40.026348+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-15T00:53:14.375137+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-15T00:53:19.145470+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-15T00:53:20.381644+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-15T00:54:17.062541+0300 ERROR authenticate_user() takes 3 positional arguments but 4 were given
+Endpoint: http://127.0.0.1:8000/api/v1/login
+
+2025-03-15T00:54:31.920455+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-15T00:54:39.344357+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-15T00:54:40.737310+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-15T00:55:27.920181+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-15T00:56:35.257402+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-15T00:56:45.156490+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T00:57:14.314189+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T00:57:34.973435+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T00:58:38.037535+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T00:59:09.477930+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-15T00:59:56.955289+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:03:23.733704+0300 INFO Вошел пользователь: user@example.com
+
+2025-03-15T01:05:08.876989+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:05:38.877318+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:05:47.803471+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:06:00.759728+0300 ERROR 'NoneType' object has no attribute 'send'
+Endpoint: http://testserver/api/v1/login
+
+2025-03-15T01:06:06.177129+0300 ERROR (sqlalchemy.dialects.postgresql.asyncpg.InterfaceError) <class 'asyncpg.exceptions._base.InterfaceError'>: cannot perform operation: another operation is in progress
+[SQL: SELECT "user".id, "user".password, "user".email, "user".code, "user".code_expiration, "user".referrer 
+FROM "user" 
+WHERE "user".email = $1::VARCHAR]
+[parameters: ('some@mail.ru',)]
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+Endpoint: http://testserver/api/v1/login
+
+2025-03-15T01:07:17.825220+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:07:46.557898+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:08:56.437035+0300 ERROR 'NoneType' object has no attribute 'send'
+Endpoint: http://testserver/api/v1/login
+
+2025-03-15T01:08:59.086723+0300 ERROR 'NoneType' object has no attribute 'send'
+Endpoint: http://testserver/api/v1/login
+
+2025-03-15T01:09:27.050506+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:09:40.386838+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:10:11.892729+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:10:48.768887+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:11:24.397932+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:12:16.690592+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:12:20.087522+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:13:02.751933+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:13:56.645212+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:13:59.040643+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:14:20.680867+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:15:32.791177+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:16:53.636923+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:17:32.352975+0300 INFO Вошел пользователь: some@mail.ru
+
+2025-03-15T01:18:06.939077+0300 INFO Вошел пользователь: some@mail.ru
+

@@ -1,0 +1,180 @@
+2025-03-12T03:22:00.500128+0300 INFO Перешел пользователь по реферальному коду agasgas
+
+2025-03-12T03:22:01.805282+0300 INFO Перешел пользователь по реферальному коду agasgas
+
+2025-03-12T03:28:14.344013+0300 ERROR 404: Referral code does not exists
+Endpoint: http://127.0.0.1:8000/api/v1/enter/agasgas
+
+2025-03-12T03:28:15.025753+0300 ERROR 404: Referral code does not exists
+Endpoint: http://127.0.0.1:8000/api/v1/enter/agasgas
+
+2025-03-12T03:28:26.452750+0300 ERROR 404: Referral code does not exists
+Endpoint: http://127.0.0.1:8000/api/v1/enter/agasgas
+
+2025-03-12T03:28:44.109192+0300 ERROR 404: Referral code does not exists
+Endpoint: http://127.0.0.1:8000/api/v1/enter/agasgas
+
+2025-03-12T03:42:59.150033+0300 ERROR 404: Referral code does not exists
+Endpoint: http://127.0.0.1:8000/api/v1/enter/agasgas
+
+2025-03-12T03:47:33.218224+0300 ERROR 404: Referral code does not exists
+Endpoint: http://127.0.0.1:8000/api/v1/enter/agasgas
+
+2025-03-12T03:47:33.219228+0300 ERROR [Errno 2] No such file or directory: '/src/static/404_response.html'
+Endpoint: http://127.0.0.1:8000/api/v1/enter/agasgas
+
+2025-03-12T03:47:46.259043+0300 ERROR 404: Referral code does not exists
+Endpoint: http://127.0.0.1:8000/api/v1/enter/agasgas
+
+2025-03-12T03:47:46.260047+0300 ERROR [Errno 2] No such file or directory: 'static/404_response.html'
+Endpoint: http://127.0.0.1:8000/api/v1/enter/agasgas
+
+2025-03-12T03:47:59.764029+0300 ERROR 404: Referral code does not exists
+Endpoint: http://127.0.0.1:8000/api/v1/enter/agasgas
+
+2025-03-12T03:48:13.238361+0300 ERROR 404: Referral code does not exists
+Endpoint: http://127.0.0.1:8000/api/v1/enter/agasgas
+
+2025-03-12T03:48:53.420786+0300 ERROR 404: Not Found
+Endpoint: http://127.0.0.1:8000/api/v1/endsadas
+
+2025-03-12T03:49:04.215056+0300 ERROR 404: Not Found
+Endpoint: http://127.0.0.1:8000/
+
+2025-03-12T04:03:32.622102+0300 INFO Вошел пользователь: nik.som201@mail.ru
+
+2025-03-12T04:03:32.630129+0300 ERROR 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+Endpoint: http://127.0.0.1:8000/api/v1/login
+
+2025-03-12T04:04:15.589084+0300 INFO Вошел пользователь: nik.som201@mail.ru
+
+2025-03-12T04:08:51.570377+0300 INFO Вошел пользователь: nik.som201@mail.ru
+
+2025-03-12T04:11:23.900981+0300 INFO Вошел пользователь: nik.som201@mail.ru
+
+2025-03-12T04:13:46.575318+0300 ERROR 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+Endpoint: http://127.0.0.1:8000/api/v1/logout
+
+2025-03-12T04:26:07.335828+0300 INFO Вошел пользователь: nik.som201@mail.ru
+
+2025-03-12T04:27:08.674043+0300 ERROR 'dict' object has no attribute 'rsplit'
+Endpoint: http://127.0.0.1:8000/api/v1/create_referral_code?code=sadasdas
+
+2025-03-12T04:28:35.219710+0300 ERROR 'dict' object has no attribute 'rsplit'
+Endpoint: http://127.0.0.1:8000/api/v1/create_referral_code?code=sadasdas
+
+2025-03-12T04:28:56.338661+0300 ERROR (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: значение NULL в столбце "password" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (22, null, nik.som201@mail.ru, sadasdas, null, null).
+[SQL: INSERT INTO "user" (password, email, code, code_expiration, referrer) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::TIMESTAMP WITHOUT TIME ZONE, $5::BIGINT) RETURNING "user".id]
+[parameters: (None, 'nik.som201@mail.ru', 'sadasdas', None, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Endpoint: http://127.0.0.1:8000/api/v1/create_referral_code?code=sadasdas
+
+2025-03-12T04:30:01.362902+0300 ERROR 'NoneType' object has no attribute 'rsplit'
+Endpoint: http://127.0.0.1:8000/api/v1/create_referral_code?code=sadasdas
+
+2025-03-12T04:30:57.123716+0300 ERROR 'dict' object has no attribute 'rsplit'
+Endpoint: http://127.0.0.1:8000/api/v1/create_referral_code?code=sadasdas
+
+2025-03-12T04:35:19.138867+0300 ERROR (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: значение NULL в столбце "password" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (23, null, nik.som201@mail.ru, sadasdas, null, null).
+[SQL: INSERT INTO "user" (password, email, code, code_expiration, referrer) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::TIMESTAMP WITHOUT TIME ZONE, $5::BIGINT) RETURNING "user".id]
+[parameters: (None, 'nik.som201@mail.ru', 'sadasdas', None, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Endpoint: http://127.0.0.1:8000/api/v1/create_referral_code?code=sadasdas
+
+2025-03-12T04:35:59.168058+0300 ERROR DMLWhereBase.where() got an unexpected keyword argument 'email'
+Endpoint: http://127.0.0.1:8000/api/v1/create_referral_code?code=sadasdas
+
+2025-03-12T04:38:11.720997+0300 ERROR (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.DataError'>: invalid input for query argument $2: datetime.datetime(2025, 4, 11, 1, 38, 11... (can't subtract offset-naive and offset-aware datetimes)
+[SQL: UPDATE "user" SET code=$1::VARCHAR, code_expiration=$2::TIMESTAMP WITHOUT TIME ZONE WHERE true]
+[parameters: ('sadasdas', datetime.datetime(2025, 4, 11, 1, 38, 11, 682066, tzinfo=datetime.timezone.utc))]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+Endpoint: http://127.0.0.1:8000/api/v1/create_referral_code?code=sadasdas
+
+2025-03-12T04:41:36.741209+0300 INFO Зарегистрирован пользователь: nik.som202@mail.ru
+
+2025-03-12T04:41:36.935464+0300 ERROR (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.DataError'>: invalid input for query argument $5: <src.database.models.user.User object at... ('User' object cannot be interpreted as an integer)
+[SQL: INSERT INTO "user" (password, email, code, code_expiration, referrer) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::TIMESTAMP WITHOUT TIME ZONE, $5::BIGINT) RETURNING "user".id]
+[parameters: ('$2b$12$/yiMQKGmsQaghUMGhbvAM.W/NMb.9RiDaErI8iKS6Yj1U0tod0Qxe', 'nik.som202@mail.ru', None, None, <src.database.models.user.User object at 0x000001C6376FDB20>)]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+Endpoint: http://127.0.0.1:8000/api/v1/register
+
+2025-03-12T04:42:55.300910+0300 INFO Зарегистрирован пользователь: nik.som202@mail.ru
+
+2025-03-12T04:45:50.510730+0300 INFO Зарегистрирован пользователь: nik.som202@mail.ru
+
+2025-03-12T04:45:50.703136+0300 ERROR 'NoneType' object has no attribute 'id'
+Endpoint: http://127.0.0.1:8000/api/v1/register
+
+2025-03-12T04:46:41.156832+0300 INFO Зарегистрирован пользователь: nik.som202@mail.ru
+
+2025-03-12T04:46:41.349500+0300 ERROR 'NoneType' object has no attribute 'id'
+Endpoint: http://127.0.0.1:8000/api/v1/register
+
+2025-03-12T04:46:58.546996+0300 INFO Зарегистрирован пользователь: nik.som202@mail.ru
+
+2025-03-12T04:46:58.722973+0300 ERROR 'NoneType' object has no attribute 'id'
+Endpoint: http://127.0.0.1:8000/api/v1/register
+
+2025-03-12T04:47:58.580427+0300 INFO Зарегистрирован пользователь: nik.som202@mail.ru
+
+2025-03-12T04:47:58.773376+0300 ERROR 'NoneType' object has no attribute 'id'
+Endpoint: http://127.0.0.1:8000/api/v1/register
+
+2025-03-12T04:49:07.722047+0300 INFO Зарегистрирован пользователь: nik.som202@mail.ru
+
+2025-03-12T04:49:07.916347+0300 ERROR 'NoneType' object has no attribute 'id'
+Endpoint: http://127.0.0.1:8000/api/v1/register
+
+2025-03-12T04:50:03.159794+0300 INFO Зарегистрирован пользователь: nik.som202@mail.ru
+
+2025-03-12T04:50:03.351458+0300 ERROR 'NoneType' object has no attribute 'id'
+Endpoint: http://127.0.0.1:8000/api/v1/register
+
+2025-03-12T04:51:37.121126+0300 INFO Зарегистрирован пользователь: nik.som202@mail.ru
+
+2025-03-12T04:51:37.320832+0300 ERROR 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+Endpoint: http://127.0.0.1:8000/api/v1/register
+
+2025-03-12T04:51:55.991536+0300 INFO Зарегистрирован пользователь: nik.som202@mail.ru
+
+2025-03-12T04:51:56.167675+0300 ERROR 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+Endpoint: http://127.0.0.1:8000/api/v1/register
+
+2025-03-12T04:53:52.359229+0300 INFO Зарегистрирован пользователь: nik.som202@mail.ru
+
+2025-03-12T04:53:52.555665+0300 ERROR AsyncSession.refresh() missing 1 required positional argument: 'instance'
+Endpoint: http://127.0.0.1:8000/api/v1/register
+
+2025-03-12T04:54:12.027644+0300 INFO Зарегистрирован пользователь: nik.som202@mail.ru
+
+2025-03-12T04:54:12.229430+0300 ERROR 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+Endpoint: http://127.0.0.1:8000/api/v1/register
+
+2025-03-12T04:54:35.807950+0300 INFO Зарегистрирован пользователь: nik.som202@mail.ru
+
+2025-03-12T04:54:36.011462+0300 ERROR 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+Endpoint: http://127.0.0.1:8000/api/v1/register
+
+2025-03-12T04:57:11.954838+0300 INFO Зарегистрирован пользователь: nik.som202@mail.ru
+
+2025-03-12T04:57:12.152730+0300 ERROR 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+Endpoint: http://127.0.0.1:8000/api/v1/register
+
+2025-03-12T04:58:27.029642+0300 INFO Зарегистрирован пользователь: nik.som202@mail.ru
+
